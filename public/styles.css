@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(219, 23%, 14%);
+}
+.container{
+    background-color: hsl(219, 23%, 14%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsl(215, 22%, 30%);
+    min-width: 60vh;
+    width: auto;
+    /* min-height: 250px; */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 1px 2px 75px rgb(3, 28, 45);
+    position: relative;
+}
+.res{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 5% 3%;
+    position: relative;
+    display: flex;
+}
+#copy-btn{
+    margin-left: 5px;
+    cursor: pointer;
+    color: hsl(150, 100%, 66%);
+}
+.done{
+    color: hsl(150, 100%, 66%);
+    position: absolute;
+    right: 10px;
+}
+.res>p{
+    font-size: large;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.hidden{
+    display: none;
+}
+.inline{
+    display: inline;
+}
+/* #copy-btn::after{
+    content: "Copied";
+    position: absolute;
+    right: 15%;
+    top: 3px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 4px 3px;
+    border-radius: 5px;
+}
+#copy-btn::before{
+    content: "";
+    position: absolute;
+    right: 29%;
+    top: 31%;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(150, 100%, 66%);
+    transform: rotate(45deg);
+} */
+/* .hidden2::after,
+.hidden2::before{
+    display: none;
+}
+.inline::after,
+.inline::before{
+    display: inline;
+} */
+.body{
+    margin: 8% 5% 0px 5%;
+}
+.body>form{
+    display: flex;
+    flex-direction: column;
+}
+
+#empty{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cc{
+    color: hsl(150, 100%, 66%);
+    font-size: large;
+    padding-bottom: 10px;
+}
+.btn{
+    margin-top: 10px;
+    width: fit-content;
+    color: hsl(150, 100%, 66%);
+    border-color: hsl(150, 100%, 66%);
+}
+.btn:hover{
+    background-color: hsl(150, 100%, 66%);
+    border-color: hsl(150, 100%, 66%);
+    color: black;
+}
